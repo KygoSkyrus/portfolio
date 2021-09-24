@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Dheeraj Gupta Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="progress" onclick="topFunction()">
+      <span id="progress-value"><i class="fa fa-arrow-up"></i></span>
+    </div>
+
+    <div id="home" class="page-section">
+      <header class="header" id="header">
+        <div class="logo">
+          <img
+            src="https://thumbs.dreamstime.com/b/dg-logo-letter-monogram-slash-modern-designs-template-black-color-white-background-164905757.jpg"
+            alt="logo"
+            width="55px"
+          />
+          <button class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+          </button>
+        </div>
+
+        <section class="linkscont" id="links">
+          <a class="link" href="#home">Home</a>
+          <a class="link" href="#about">About</a>
+          <a class="link" href="#projects">Projects</a>
+  <!--    <a class="link" href="#tours">Contact</a>  
+  --> 
+        </section>
+      </header>
+
+      <h1>DHEERAJ GUPTA</h1>
+      <p>Front End Developer</p>
+      <div id="ico">
+        <a href="tel:8076806118">
+          <i class="fa fa-phone-square" aria-hidden="true"></i></a>
+        <a href="mailto:kygoskyrus@gmail.com">
+          <i class="fa fa-envelope-square" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/dheeraj-gupta-a71145170"
+        target="blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/KygoSkyrus"  target="blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div id="about" class="page-section">
+      <h2>
+        About
+        <section class="parts">Me</section>
+      </h2>
+      <p class="about_me">
+        Hey, this is Dheeraj Gupta, pursuing Bachelors of Computer Applications.
+        Since when I've started learning Web Development I have learned so many
+        things and tried to implement them in my projects. Displayed below there
+        are some of my React and JavaScript projects. Also you can check out my
+        other projects(Responsive Web Design) on my
+        <a href="https://codepen.com/KygoSkyrus" target="blank">codepen</a>.
+        Feel free to look around, any suggestions would be helpfull...
+      </p>
+      
+    </div>
+
+    <div id="projects" class="page-section">
+      <h2>
+        <section class="parts">My</section>
+        Projects
+      </h2>
+
+      <div class="a">
+
+        
+
+        <div class="holder" id="con1">
+          
+          <div class="controls" id="btn-left-1" onclick="controll('l','con1')">
+          <i class="fa fa-angle-left" aria-hidden="true"></i>
+        </div>
+
+        <div class="controls" id="btn-right-1"  onclick="controll('r','con1')" >
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+
+          <a href="https://dg-skychat.herokuapp.com/" target="blank">
+            <div class="polaroid">
+              <div class="img Skychat"></div>
+              <div class="description">
+                <p>Real-time Chat App</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://kygoskyrus-weather-app.netlify.app/" target="blank">
+            <div class="polaroid">
+              <div class="img Weather"></div>
+              <div class="description">
+                <p>Weather App</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://kygoskyrus-whatsapp-clone.netlify.app/"
+            target="blank"
+          >
+            <div class="polaroid">
+              <div class="img Whatsapp"></div>
+              <div class="description">
+                <p>Whatsapp Web Clone</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://kygoskyrus-random-quotes.netlify.app/"
+            target="blank"
+          >
+            <div class="polaroid">
+              <div class="img Quotes"></div>
+              <div class="description">
+                <p>Random Quotes</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://kygoskyrus-markdown-previewer.netlify.app/"
+            target="blank"
+          >
+            <div class="polaroid">
+              <div class="img Md"></div>
+              <div class="description">
+                <p>Markdown Previewer</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://kygoskyrus-calculator.netlify.app/" target="blank">
+            <div class="polaroid">
+              <div class="img Calculator"></div>
+              <div class="description">
+                <p>Calculator</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://kygoskyrus-drum-machine.netlify.app/" target="blank">
+            <div class="polaroid">
+              <div class="img Drum"></div>
+              <div class="description">
+                <p>Drum Machine</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://kygoskyrus-pomodoro-clock.netlify.app/"
+            target="blank"
+          >
+            <div class="polaroid">
+              <div class="img Pomodoro"></div>
+              <div class="description">
+                <p>Pomodoro Clock</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+          href="https://kygoskyrus-todo.netlify.app/"
+          target="blank"
+        >
+          <div class="polaroid">
+            <div class="img Todo"></div>
+            <div class="description">
+              <p>Todo App</p>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+
+      <div class="a">
+
+        <div class="holder" id="con2">
+
+          <div class="controls" id="btn-left-2" onclick="controll('l','con2')">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+          </div>
+
+          <div class="controls" id="btn-right-2" onclick="controll('r','con2')">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </div>
+
+
+          <a href="https://kygoskyrus-tictactoe.netlify.app/" target="blank">
+            <div class="polaroid">
+              <div class="img Tictactoe"></div>
+              <div class="description">
+                <p>Tic-Tac-Toe</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://kygoskyrus-accordion.netlify.app/" target="blank">
+            <div class="polaroid">
+              <div class="img Accordion"></div>
+              <div class="description">
+                <p>Accordion</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://kygoskyrus-counter.netlify.app/" target="blank">
+            <div class="polaroid">
+              <div class="img Counter"></div>
+              <div class="description">
+                <p>Counter</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://kygoskyrus-countdown.netlify.app/" target="blank">
+            <div class="polaroid">
+              <div class="img Countdown"></div>
+              <div class="description">
+                <p>Countdown</p>
+              </div>
+            </div>
+          </a>
+          <a
+            href="https://kygoskyrus-javascript-libraries.netlify.app/"
+            target="blank"
+          >
+            <div class="polaroid">
+              <div class="img Libraries"></div>
+              <div class="description">
+                <p>JavaScript Libraries</p>
+              </div>
+            </div>
+          </a>
+          <a href="https://kygoskyrus-menu.netlify.app/" target="blank">
+            <div class="polaroid">
+              <div class="img Menu"></div>
+              <div class="description">
+                <p>Menu</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="https://kygoskyrus-modal.netlify.app/" target="blank">
+            <div class="polaroid">
+              <div class="img Modal"></div>
+              <div class="description">
+                <p>Modal</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://kygoskyrus-video-project.netlify.app/"
+            target="blank"
+          >
+            <div class="polaroid">
+              <div class="img Video"></div>
+              <div class="description">
+                <p>Video Project</p>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="https://kygoskyrus-color-flipper.netlify.app/"
+            target="blank"
+          >
+            <div class="polaroid">
+              <div class="img Flipper"></div>
+              <div class="description">
+                <p>Color Flipper</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <div id="tours" class="page-section">
+      <h2>
+        Contact
+        <section class="parts">Me</section>
+      </h2>
+
+      <div class="icon-holder">
+        <a href="tel:8076806118">
+          <img src="./images/icons8-phone-100.png" />
+        </a>
+        <a href="mailto:kygoskyrus@gmail.com">
+          <img src="./images/icons8-gmail-logo-100.png" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/dheeraj-gupta-a71145170"
+          target="blank"
+        >
+          <img src="./images/icons8-linkedin-100.png" />
+        </a>
+        <a href="https://github.com/KygoSkyrus" target="blank">
+          <img src="./images/icons8-github-100.png" />
+        </a>
+      </div>
+    </div>
+-->
+    <div id="cprt">
+      <span
+        >Copyright &copy; DG Portfolio <span class="date"></span>. All Rights
+        Reserved</span
+      >
+    </div>
+
+    <a class="up" href="">
+      <i class=""></i>
+    </a>
+   <div class="bar"></div>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
