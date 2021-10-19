@@ -199,41 +199,28 @@ h2 {
 */
 
 
-
 .holder{
-  background-color: '';
   padding: 60px 50px;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(4,auto);
+  grid-template-columns: repeat(8,auto);
   background:#2c2b2b;
   grid-auto-flow: column;
   box-shadow: inset 0 6px 20px ;
   margin-bottom: 10px;
-  overflow-x: scroll;
   align-items: center;
+  overflow-x: scroll;
+  z-index: 99 !important;
+  position: relative;
   /*background-color: rgb(206, 202, 202);*/
 }
-/*scrollbar customization*/
 .holder::-webkit-scrollbar {
-  height: 8px;
-  
+  display: none;
 }
-/* Track */
-::-webkit-scrollbar-track {
-  background: black; 
+#con3{
+  display: flex;
+  justify-content: center;
 }
-/* Handle */
-::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  background: blueviolet; 
-  margin: 8px;
-}
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(114, 113, 113); 
-}
-
 
 .holder a{
   appearance: none;
@@ -255,10 +242,10 @@ h2 {
   scroll-behavior: smooth;
   cursor: pointer;
 }
-#btn-right-1,#btn-right-2{
+#btn-right-1,#btn-right-2,#btn-right-3{
   right: 9%;
 }
-#btn-left-1,#btn-left-2{
+#btn-left-1,#btn-left-2,#btn-left-3{
   left: 9%;
 }
 
@@ -267,12 +254,34 @@ h2 {
   transition: all 0.3s ease-in-out;
 }
 
+.sub-head-holder{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+}
+.sub-head{
+  width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: blueviolet;
+ color: white;
+ padding: 8px 0;
+ display: flex;
+ justify-content: center;
+ border-radius: 0 0 8px 8px;
+ box-shadow: 0px 10px 22px rgb(0, 0, 0);
+}
+
+
 .polaroid{
+  width: fit-content;
   margin: 10px;
   box-shadow: 0px 20px 32px rgb(0, 0, 0);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between;z-index: 99 !important;
 }
 .polaroid:hover{
   transform: scale(1.03);
@@ -328,6 +337,9 @@ h2 {
 }
 .Tictactoe{
   background:url('./images/127.0.0.1_5500_index.html.png');
+}
+.Shoppitt{
+  background:url('./images/shoppitt.png');
 }
 
 .img{
@@ -493,6 +505,26 @@ h2 {
     padding: 10px 0;
   }
 
+  
+  /*scrollbar customization*/
+.holder::-webkit-scrollbar {
+  height: 8px;
+  
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: blueviolet; 
+  margin: 8px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(114, 113, 113); 
+}
 
   .icon-holder{
     width: 300px;

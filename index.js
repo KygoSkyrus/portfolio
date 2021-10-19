@@ -152,4 +152,7 @@ function controll(direction, hlder) {
         if (content_scoll_left >= content_scroll_width) { content_scoll_left = content_scroll_width; }
         content.scrollLeft = content_scoll_left;
     }
+    
 }
+
+
