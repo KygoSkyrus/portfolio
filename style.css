@@ -207,6 +207,8 @@ h2 {
   align-items: center;
   overflow-x: scroll;
   /*background-color: rgb(206, 202, 202);*/
+  display: flex;
+  justify-content: flex-start;
 }
 .holder::-webkit-scrollbar {
   display: none;
