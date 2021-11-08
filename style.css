@@ -341,6 +341,10 @@ h2 {
 .Shoppitt {
   background: url("./images/shoppitt.png");
 }
+.Rockstock{
+  background: url("./images/kygoskyrus-rockstock.netlify.app_\ \(1\).png");
+}
+
 
 .img {
   width: 230px;
@@ -360,6 +364,7 @@ h2 {
   background-position: left;
   background-size: cover;
 }
+
 
 .description {
   width: 230px;
